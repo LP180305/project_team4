@@ -1,0 +1,101 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    font-size: 36px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 18px;
+    margin: 10px 5px !important;
+}
+p{
+    margin-bottom: 16PX;
+    margin-left: 0;
+    font-size: 14px;
+  }
+h4{
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    &:hover{
+    color: #e01600;
+    text-decoration:underline;
+    cursor: pointer;
+    }
+}
+input{
+    cursor: pointer;
+}
+select{
+    max-width: 306px;
+    cursor: pointer;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.crop-text1{
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical; 
+}
+.crop-text2{
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.cardProduct{
+    color: #2d4271;
+    img{
+        height: 190px;
+    }
+    span{
+    font-size: 13px;
+    }
+    a{
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px 0px;
+    font-weight: 600;
+    }
+    &:hover{
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+    cursor: pointer;
+    }
+}
+.buttonCommonProduct{
+    border-radius: 5px;
+    padding: 5px;
+    height: 35px;
+    &.buyProduct{
+    background: #e01600;
+    color: #fff;
+    border: #fff;
+    display: flex;
+    align-items: center;
+    }
+    &.detailProduct{
+        &:hover{
+            color: #4d4aef  !important;
+            a{
+                background: #fff !important;
+                
+            }   
+        }
+    color: #4d4aef;
+    border: 1px solid #4d4aef;
+    background: #fff;
+    }
+}

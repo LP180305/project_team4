@@ -1,0 +1,84 @@
+.headerProductdetail{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    button{ 
+        width: 100% ;
+        display: flex ;
+        justify-content: center;
+        padding: 10px !important;
+        &:hover{
+            
+        }
+    }
+    >div{
+        &:first-child{
+            width: 60%;
+        }
+        &:last-child{
+            display: flex;
+            align-items: center;
+            width: 30%;
+            justify-content: space-between;
+            p{
+                margin: 0;
+                span{
+                    font-size: 22px;
+                    color: #E01600;
+                    font-weight: 600;
+                }
+            }
+            div{
+                width: 50%;
+            }
+        }
+    }
+}
+.layoutImg>div{
+    img{
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+.inforTour{
+    >div:first-child{
+        >div:last-child{
+            display: flex;
+            position: relative;
+            max-width: 350px;
+            button{
+                display: flex;
+                align-items: center;
+                font-size: 15px;
+                border-radius: 10px;
+                padding: 0 30px;
+                border: 1px solid #4d4aef;
+                &.contact{
+                    color: #fff;
+                    background: #4d4aef;
+                    margin-right: -20px;
+                    z-index: 1;
+                }
+                &.mail{
+                    color: #4d4aef;
+                }
+            }
+        }
+    }
+    img{
+        width: 25px;
+        height: 25px;
+    }
+    h3{
+        font-size: 16px !important;
+        text-align: start;
+        margin: 10px 5px !important;
+    }
+}
+h3{
+    text-align: center;
+    color: #4d4aef;
+    font-weight: 600;
+    margin-top: 40px !important;
+}

@@ -1,0 +1,17 @@
+.cartPage{
+    li{
+        list-style: none;
+        margin-bottom: 10px;
+        &:hover{
+            color: #e01600;
+            text-decoration:underline;
+            cursor: pointer;
+        }
+    }
+}
+
+.payment {
+   padding: 1px 2px;
+  width: 165.6px;
+  height: 26.2px;
+}
