@@ -440,12 +440,11 @@ function Blog(){
             <div className="image-beach6">
                 <img src="https://images.squarespace-cdn.com/content/v1/5b5dbd883917ee427d49e685/1630031068853-F4QIAGJRNSKF811QYPNS/Australia+has+some+of+the+best+beaches+in+the+world%2C+so+you+don%27t+want+to+miss+the+beaches+on+this+list+of+the+best+beaches+in+Australia.+The+best+Australia+beaches+includes+the+best+beaches+in+Western+Australia%2C+the+best+beaches+in+Queensland%2C+and+the+best+Beaches+in+South+Australia.+Add+these+beaches+to+your+Australia+bucket+list%21+%7C+australias+best+beaches+%7C+best+beaches+australia+%7C+australia+best+beach+%7C+best+beach+in+australia+%7C+australia+travel+bucket+lists+%7C+australia+bucket+list+ideas?format=1000w"/>
             </div>
-            
-                <h1 className='extra fit'>
+            <div className='foot'>
+                <h1 className='fit'>
                 Please register to travel with us right here, we will give you the best trip
                 </h1>
-          
-
+    
             <ul class="wrapper">
             <li class="icon facebook" onClick={handleShare}>
                 <span class="tooltip">Facebook</span>
@@ -489,7 +488,7 @@ function Blog(){
                 </svg>
             </li>
             </ul>
-            <div className='feedback'>
+           
                 <CommentSection/>
             </div>
              
