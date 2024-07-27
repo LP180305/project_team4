@@ -1,34 +1,18 @@
-import Navbar from '../Navbar'
+import Navbar from "../Navbar";
 import Hero from "../Hero";
 import Destination from "../Destination";
 import Footer from "../Footer";
-import './Home.css'
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import "./Home.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-import Loading from "../loader/loading"
-import { useEffect, useState } from 'react';
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 function Home() {
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-      const fakeDataFetch = () =>{
-          setTimeout(() => {
-              setIsLoading(false)
-           },4000);
-          }
-
-
-          fakeDataFetch()
-  },[])
-  return isLoading?(
-    <Loading/>
-    ) : (
+  return (
     <>
-      <Navbar/>
+      <Navbar />
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -46,71 +30,45 @@ function Home() {
         <SwiperSlide>
           <Hero
             cName="hero"
-            heroImg="https://www.australia.com/content/australia/en/_jcr_content/root/hero_homepage/desktop.adapt.1920.high.jpg"
-            title="Your Journey Your Story"
-            text="Choose Your Favourite Destination"
-            buttonText="Travel Plan"
-            url="/"
-            btnClass="show"
+            heroImg="https://cdn.cnn.com/cnnnext/dam/assets/181010115316-australia-best-beaches---neds-full-169.jpg"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Hero
             cName="hero"
-            heroImg="https://www.australia.com/content/australia/en/_jcr_content/root/hero_homepage/desktop.adapt.1920.high.jpg"
-            title="Your Journey Your Story"
-            text="Choose Your Favourite Destination"
-            buttonText="Travel Plan"
-            url="/"
-            btnClass="show"
+            heroImg="https://awayandfar.com/wp-content/uploads/2019/05/Whitehaven-Beach.jpg"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Hero
             cName="hero"
-            heroImg="https://www.australia.com/content/australia/en/_jcr_content/root/hero_homepage/desktop.adapt.1920.high.jpg"
-            title="Your Journey Your Story"
-            text="Choose Your Favourite Destination"
-            buttonText="Travel Plan"
-            url="/"
-            btnClass="show"
+            heroImg="https://www.travelinsurancedirect.com.au/blog/wp-content/uploads/2019/05/GettyImages-1217993813-2121x1000.jpg"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Hero
             cName="hero"
-            heroImg="https://www.australia.com/content/australia/en/_jcr_content/root/hero_homepage/desktop.adapt.1920.high.jpg"
-            title="Your Journey Your Story"
-            text="Choose Your Favourite Destination"
-            buttonText="Travel Plan"
-            url="/"
-            btnClass="show"
+            heroImg="https://bigseventravel.com/wp-content/uploads/2019/10/Cottesloe-Beach-Perth--1024x576.jpg"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Hero
             cName="hero"
-            heroImg="https://www.australia.com/content/australia/en/_jcr_content/root/hero_homepage/desktop.adapt.1920.high.jpg"
-            title="Your Journey Your Story"
-            text="Choose Your Favourite Destination"
-            buttonText="Travel Plan"
-            url="/"
-            btnClass="show"
+            heroImg="https://bigseventravel.com/wp-content/uploads/2019/10/broome.jpg"
           />
         </SwiperSlide>
-        
       </Swiper>
       <SwiperSlide>
-          <Hero
-            cName="hero"
-            heroImg="https://www.australia.com/content/australia/en/_jcr_content/root/hero_homepage/desktop.adapt.1920.high.jpg"
-            title="Your Journey Your Story"
-            text="Choose Your Favourite Destination"
-            buttonText="Travel Plan"
-            url="/"
-            btnClass="show"
-          />
-        </SwiperSlide>
+        <Hero
+          cName="hero"
+          heroImg="https://www.australia.com/content/australia/en/_jcr_content/root/hero_homepage/desktop.adapt.1920.high.jpg"
+          title="Your Journey Your Story"
+          text="Choose Your Favourite Destination"
+          buttonText="Travel Plan"
+          url="/products"
+          btnClass="show"
+        />
+      </SwiperSlide>
       <Destination />
       <Footer />
     </>
