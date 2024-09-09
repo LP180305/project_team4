@@ -85,9 +85,9 @@ const ProductDetailPage = () =>{
                             <h2 style={{textAlign: "justify"}}>{data?.content}</h2>
                         </div>
                         <div>
-                            <p><span>{formatNumber(data?.price)}₫</span>/ guest</p>
+                            
                             <div >
-                                <button className="buttonCommonProduct buyProduct" onClick={()=>addProduct(data)}>Book now</button>
+                                
                                 <button className="buttonCommonProduct detailProduct mt-2">Contact us</button>
                             </div>
                         </div>

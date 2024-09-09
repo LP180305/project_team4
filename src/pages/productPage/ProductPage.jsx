@@ -134,12 +134,12 @@ const ProductPage = () => {
                     <hr />
                     <div className="layOutProduct mt-4">
                         <Row>
-                            <Col md={5} className="align-self-center">We have found 4,216 tours for you.</Col>
+                           
                             <Col md={{ span: 6, offset: 1 }} className="align-self-center" style={{display:"flex", alignItems:"center"}}>Sorted by
                                 <Form.Select aria-label="Default select example" style={{marginLeft:"10px"}}>
                                     <option>All</option>
-                                    <option value="1">Package tour</option>
-                                    <option value="2">Family tour</option>
+                                    <option value="1">Package </option>
+                                    <option value="2">Family </option>
                                 </Form.Select>
                             </Col>
                         </Row>

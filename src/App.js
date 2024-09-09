@@ -3,7 +3,7 @@ import Blog from './component/Blog/Blog';
 import Gallery from './component/Gallery/Gallery';
 import ProductDetailPage from "./pages/productDetailPage/ProductDetailPage";
 import ProductPage from "./pages/productPage/ProductPage";
-import CartPage from "./pages/cartPage/CartPage";
+
 import Services from './component/AboutUs/Services';
 import Home from './component/Home/Home';
 import Contact from "./component/Contact/Contact"
@@ -32,7 +32,7 @@ function App() {
           <Route path='/aboutUs' element={<Services/>}/>
           <Route path="/products" element={<ProductPage/>}/>
           <Route path="/productdetail" element={<ProductDetailPage/>}/>
-          <Route  path="/cart" element={<CartPage/>}/>
+          
           <Route  path="/loginform" element={<LoginForm/>}/>
           <Route  path="/register" element={<Register/>}/>
           <Route path='/contact' element={<Contact/>}/>

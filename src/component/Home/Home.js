@@ -64,7 +64,7 @@ function Home() {
           heroImg="https://www.australia.com/content/australia/en/_jcr_content/root/hero_homepage/desktop.adapt.1920.high.jpg"
           title="Your Journey Your Story"
           text="Choose Your Favourite Destination"
-          buttonText="Travel Plan"
+          buttonText="Detail Plan"
           url="/products"
           btnClass="show"
         />

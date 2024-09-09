@@ -21,7 +21,7 @@ const CardProductComponent = (props) => {
                     {data?.content}       
                 </Link>
                 <span >
-                Tour code:
+                code:
                 </span>
                 <Card.Text className="crop-text2">
                     <BsTicket /> {data?.ticket}
@@ -29,9 +29,9 @@ const CardProductComponent = (props) => {
                 <Card.Text className="crop-text2">
                 Departure Point: <span  style={{fontWeight:"600"}}>{data?.address}</span>
                 </Card.Text>
-                <span style={{color:"red",fontWeight:"600"}}>{formatNumber(data?.price)} ₫ </span>
+               
                 <div style={{display:"flex",justifyContent:"space-between"}}>
-                    <button className="buttonCommonProduct buyProduct" onClick={()=>addProduct(data)}><IoCartOutline /><span style={{marginLeft:"5px"}} > Book now</span></button>
+                   
                     <button className="buttonCommonProduct detailProduct"><Link to="/productdetail" state={{ data }} style={{fontSize: "15px", color:"#2d4271"}}>Detail</Link></button>
                 </div>
             

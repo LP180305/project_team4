@@ -8,7 +8,7 @@ export const product = [
         img3: "/assets/imgs/productDetail3.jpg",
         ticket: "NDSGN557-002-140724XE-H",
         time: "14/07/2024 - During the day - Departure time: 05:00",
-        content: "Australia Tour - Visiting Relatives in MELBOURNE 4D3Nights",
+        content: "Australia - Visiting Relatives in MELBOURNE 4D3Nights",
         address: "Ho Chi Minh City",
         price: 7890000
     },
@@ -20,7 +20,7 @@ export const product = [
         img3: "/assets/imgs/productDetail3.jpg",
         ticket: "NDSGN557-002-140724XE-H",
         time: "14/07/2024 - During the day - Departure time: 05:00",
-        content: "Australia Tour - Visiting Relatives in MELBOURNE 4D3Nights",
+        content: "Australia  - Visiting Relatives in MELBOURNE 4D3Nights",
         address: "Ho Chi Minh City",
         price: 7890000
     },
@@ -32,7 +32,7 @@ export const product = [
         img3: "/assets/imgs/productDetail3.jpg",
         ticket: "NDSGN557-002-140724XE-H",
         time: "14/07/2024 - During the day - Departure time: 05:00",
-        content: "Australia Tour - Visiting Relatives in MELBOURNE 4D3Nights",
+        content: "Australia  - Visiting Relatives in MELBOURNE 4D3Nights",
         address: "Ho Chi Minh City",
         price: 7890000
     },
@@ -44,7 +44,7 @@ export const product = [
         img3: "/assets/imgs/productDetail3.jpg",
         ticket: "NDSGN557-002-140724XE-H",
         time: "14/07/2024 - During the day - Departure time: 05:00",
-        content: "Australia Tour - Visiting Relatives in MELBOURNE 4D3Nights",
+        content: "Australia  - Visiting Relatives in MELBOURNE 4D3Nights",
         address: "Ho Chi Minh City",
         price: 7890000
     },
@@ -56,7 +56,7 @@ export const product = [
         img3: "/assets/imgs/productDetail3.jpg",
         ticket: "NDSGN557-002-140724XE-H",
         time: "14/07/2024 - During the day - Departure time: 05:00",
-        content: "Australia Tour - Visiting Relatives in MELBOURNE 4D3Nights",
+        content: "Australia  - Visiting Relatives in MELBOURNE 4D3Nights",
         address: "Ho Chi Minh City",
         price: 7890000
     },
@@ -68,7 +68,7 @@ export const product = [
         img3: "/assets/imgs/productDetail3.jpg",
         ticket: "NDSGN557-002-140724XE-H",
         time: "14/07/2024 - During the day - Departure time: 05:00",
-        content: "Australia Tour - Visiting Relatives in MELBOURNE 4D3Nights",
+        content: "Australia  - Visiting Relatives in MELBOURNE 4D3Nights",
         address: "Ho Chi Minh City",
         price: 7890000
     },
@@ -80,7 +80,7 @@ export const product = [
         img3: "/assets/imgs/productDetail3.jpg",
         ticket: "NDSGN557-002-140724XE-H",
         time: "14/07/2024 - During the day - Departure time: 05:00",
-        content: "Australia Tour - Visiting Relatives in MELBOURNE 4D3Nights",
+        content: "Australia  - Visiting Relatives in MELBOURNE 4D3Nights",
         address: "Ho Chi Minh City",
         price: 7890000
     },
@@ -92,7 +92,7 @@ export const product = [
         img3: "/assets/imgs/productDetail3.jpg",
         ticket: "NDSGN557-002-140724XE-H",
         time: "14/07/2024 - During the day - Departure time: 05:00",
-        content: "Australia Tour - Visiting Relatives in MELBOURNE 4D3Nights",
+        content: "Australia  - Visiting Relatives in MELBOURNE 4D3Nights",
         address: "Ho Chi Minh City",
         price: 7890000
     },
@@ -104,7 +104,7 @@ export const product = [
         img3: "/assets/imgs/productDetail3.jpg",
         ticket: "NDSGN557-002-140724XE-H",
         time: "14/07/2024 - During the day - Departure time: 05:00",
-        content: "Australia Tour - Visiting Relatives in MELBOURNE 4D3Nights",
+        content: "Australia  - Visiting Relatives in MELBOURNE 4D3Nights",
         address: "Ho Chi Minh City",
         price: 7890000
     },
@@ -116,7 +116,7 @@ export const product = [
     //     img3: "/assets/imgs/productDetail3.jpg",
     //     ticket: "NDSGN557-002-140724XE-H",
     //     time: "14/07/2024 - During the day - Departure time: 05:00",
-    //     content: "Australia Tour - Visiting Relatives in MELBOURNE 4D3Nights",
+    //     content: "Australia  - Visiting Relatives in MELBOURNE 4D3Nights",
     //     address: "Ho Chi Minh City",
     //     price: 7890000
     // },

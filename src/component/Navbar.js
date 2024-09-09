@@ -47,7 +47,7 @@ class Navbar extends Component {
     return(
       <nav className="NavbarItems">
         <div className="navbar-logo">
-          <img className="img-logo" src="https://i.pinimg.com/736x/47/f3/01/47f301c3e7c3989f5cc9c7bee4fad1a3.jpg" alt="logo"/>
+          <h1>BeautyBeach</h1>
         </div>
 
         <div className="menu-icons" onClick={this.handleClick}>
@@ -64,11 +64,7 @@ class Navbar extends Component {
               </li>
             );
           })}
-          <Link to="/cart" style={{margin:"0 10px"}}>
-            <Badge count={count}>
-              <BsCart3 style={{ fontSize: "20px" }} />
-            </Badge>
-          </Link>
+          
           {userName!==""?(
             <div style={{padding:"10px 0"}}>
             <p style={{fontSize:"20px",marginBottom:"0"}}>{userName}</p>
